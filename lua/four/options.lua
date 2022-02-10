@@ -17,10 +17,9 @@ local options = {
 	splitbelow = true,		-- force all horizontal splits to go below current window
 	splitright = true,		-- force all vertical splits to go to the right of current window
 	swapfile = false,		-- use swap file
-	termguicolors = true,		-- set term gui colors
 	timeoutlen = 1000,		-- time to wait for a mapped sequence to complete (milliseconds)
 	title = true,			-- set title of window to the value of the titlestring
-	undodir = "~/.cache/nvim/undo"	-- set undo directory
+	undodir = "/home/four/.cache/nvim/undo",
 	undofile = true,		-- enable persistent undo
 	updatetime = 300,		-- faster completion (4000ms default)
 	writebackup = false,		-- if a file is being edited by another program (or was written to file while editing with another program), it is not allowed to be edited
@@ -45,4 +44,3 @@ vim.opt.iskeyword:append "-"
 for k, v in pairs(options) do
 	vim.opt[k] = v
 end
-
