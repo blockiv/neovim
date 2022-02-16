@@ -69,6 +69,9 @@ return packer.startup(function(use)
     use "nvim-telescope/telescope.nvim"
     use "nvim-telescope/telescope-media-files.nvim"
 
+    -- Git
+    use "lewis6991/gitsigns.nvim"
+
     -- colorscheme
     use { "catppuccin/nvim", as = "catppuccin" }
 
