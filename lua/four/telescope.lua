@@ -3,8 +3,6 @@ if not success then
     return
 end
 
-telescope.load_extension("media_files")
-
 local actions = require "telescope.actions"
 
 telescope.setup {
@@ -80,12 +78,5 @@ telescope.setup {
         },
     },
     pickers = {},
-    extensions = {
-        media_files = {
-            -- filetypes whitelist
-            -- defaults to {"png", "jpg", "mp4", "webm", "pdf"}
-            filetypes = {"png", "PNG", "webp", "jpg", "JPG", "jpeg", "mp4", "webm", "pdf"},
-            find_cmd = "rg" -- find command (defaults to `fd`)
-        }
-    },
+    extensions = {},
 }
