@@ -2,7 +2,7 @@
 
 local options = {
 	backup = false,			        -- create backup file
-	clipboard = "unnamedplus",	    -- allow nvim to access the system keyboard
+	clipboard = "unnamedplus",      -- allow nvim to access the system keyboard
 	cmdheight = 2,                  -- more space in command line for displaying messages
 	conceallevel = 0,               -- make `` visible in markdown files
 	fileencoding = "utf-8",		    -- encoding written to a file
