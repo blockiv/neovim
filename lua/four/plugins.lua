@@ -43,8 +43,10 @@ return packer.startup(function(use)
     use "nvim-lua/plenary.nvim"                 -- Useful lua library
     use "windwp/nvim-autopairs"                 -- Autopairs, integrates with cmp and treesitter
     use "numToStr/Comment.nvim"                 -- Comments
-    use "kyazdani42/nvim-web-devicons"
-    use "kyazdani42/nvim-tree.lua"
+    use "kyazdani42/nvim-web-devicons"          -- devicons used in other plugins
+    use "kyazdani42/nvim-tree.lua"              -- nvim-tree
+    use "akinsho/bufferline.nvim"               -- bufferline
+    use "moll/vim-bbye"                         -- Better buffer closing
 
     -- cmp
     use "hrsh7th/nvim-cmp"                      -- The main completion plugin
