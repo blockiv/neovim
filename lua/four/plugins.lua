@@ -43,6 +43,8 @@ return packer.startup(function(use)
     use "nvim-lua/plenary.nvim"                 -- Useful lua library
     use "windwp/nvim-autopairs"                 -- Autopairs, integrates with cmp and treesitter
     use "numToStr/Comment.nvim"                 -- Comments
+    use "kyazdani42/nvim-web-devicons"
+    use "kyazdani42/nvim-tree.lua"
 
     -- cmp
     use "hrsh7th/nvim-cmp"                      -- The main completion plugin
@@ -67,7 +69,6 @@ return packer.startup(function(use)
 
     -- Telescope
     use "nvim-telescope/telescope.nvim"
-    use "nvim-telescope/telescope-media-files.nvim"
 
     -- Git
     use "lewis6991/gitsigns.nvim"
