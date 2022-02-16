@@ -42,6 +42,7 @@ return packer.startup(function(use)
     use "nvim-lua/popup.nvim"                   -- An implementation of the Popup API from vim in Neovim
     use "nvim-lua/plenary.nvim"                 -- Useful lua library
     use "windwp/nvim-autopairs"                 -- Autopairs, integrates with cmp and treesitter
+    use "numToStr/Comment.nvim"                 -- Comments
 
     -- cmp
     use "hrsh7th/nvim-cmp"                      -- The main completion plugin
@@ -62,6 +63,7 @@ return packer.startup(function(use)
 
     -- Treesitter
     use { "nvim-treesitter/nvim-treesitter", run = ":TSUpdate" }
+    use "JoosepAlviste/nvim-ts-context-commentstring"
 
     -- Telescope
     use "nvim-telescope/telescope.nvim"
