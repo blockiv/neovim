@@ -67,3 +67,4 @@ keymap("n", "<leader>f", "<cmd>lua require'telescope.builtin'.find_files(require
 
 -- Nvim-tree
 keymap("n", "<leader>e", ":NvimTreeToggle<CR>", opts)
+keymap("n", "<leader>f", ":Format<CR>", opts)
