@@ -59,12 +59,15 @@ return packer.startup(function(use)
     use "neovim/nvim-lspconfig"                 -- enable LSP
     use "williamboman/nvim-lsp-installer"       -- LSP installer
 
+    -- Treesitter
+    use { "nvim-treesitter/nvim-treesitter", run = ":TSUpdate" }
+
     -- Telescope
     use "nvim-telescope/telescope.nvim"
     use "nvim-telescope/telescope-media-files.nvim"
 
     -- colorscheme
-    use({ "catppuccin/nvim", as = "catppuccin" })
+    use { "catppuccin/nvim", as = "catppuccin" }
 
     -- Automatically setup after bootstrap
     if PACKER_BOOTSTRAP then
