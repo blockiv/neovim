@@ -11,3 +11,5 @@ require "four.comment"
 require "four.gitsigns"
 require "four.nvim-tree"
 require "four.bufferline"
+require "four.lualine"
+

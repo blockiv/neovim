@@ -47,8 +47,13 @@ return packer.startup(function(use)
 	use("numToStr/Comment.nvim") -- Comments
 	use("kyazdani42/nvim-web-devicons") -- devicons used in other plugins
 	use("kyazdani42/nvim-tree.lua") -- nvim-tree
-	use("akinsho/bufferline.nvim") -- bufferline
-	use("moll/vim-bbye") -- Better buffer closing
+
+	-- bufferline
+	use("akinsho/bufferline.nvim")
+	use("moll/vim-bbye")
+
+	-- lualine
+	use("nvim-lualine/lualine.nvim")
 
 	-- cmp
 	use("hrsh7th/nvim-cmp") -- The main completion plugin
