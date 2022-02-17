@@ -51,6 +51,9 @@ return packer.startup(function(use)
     use("lewis6991/impatient.nvim") -- improve startup times
     use("lukas-reineke/indent-blankline.nvim") -- indentation guides
 
+    -- Dashboard
+    use("goolord/alpha-nvim")
+
 	-- bufferline
 	use("akinsho/bufferline.nvim")
 	use("moll/vim-bbye")
