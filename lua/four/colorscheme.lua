@@ -9,6 +9,7 @@ require("catppuccin").setup({
 		telescope = true,
 		nvimtree = { enabled = true },
 		bufferline = true,
+		indent_blankline = { enabled = true, colored_indent_levels = false },
 	},
 })
 

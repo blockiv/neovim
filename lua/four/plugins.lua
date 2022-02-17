@@ -48,7 +48,8 @@ return packer.startup(function(use)
 	use("kyazdani42/nvim-web-devicons") -- devicons used in other plugins
 	use("kyazdani42/nvim-tree.lua") -- nvim-tree
 	use("akinsho/toggleterm.nvim") -- use terminal in neovim
-    use("lewis6991/impatient.nvim")
+    use("lewis6991/impatient.nvim") -- improve startup times
+    use("lukas-reineke/indent-blankline.nvim") -- indentation guides
 
 	-- bufferline
 	use("akinsho/bufferline.nvim")
