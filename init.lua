@@ -1,15 +1,15 @@
-require "four.options"
-require "four.keymaps"
-require "four.plugins"
-require "four.colorscheme"
-require "four.cmp"
-require "four.lsp"
-require "four.telescope"
-require "four.treesitter"
-require "four.autopairs"
-require "four.comment"
-require "four.gitsigns"
-require "four.nvim-tree"
-require "four.bufferline"
-require "four.lualine"
-
+require("four.options")
+require("four.keymaps")
+require("four.plugins")
+require("four.colorscheme")
+require("four.cmp")
+require("four.lsp")
+require("four.telescope")
+require("four.treesitter")
+require("four.autopairs")
+require("four.comment")
+require("four.gitsigns")
+require("four.nvim-tree")
+require("four.bufferline")
+require("four.lualine")
+require("four.toggleterm")
