@@ -48,18 +48,21 @@ return packer.startup(function(use)
 	use("kyazdani42/nvim-web-devicons") -- devicons used in other plugins
 	use("kyazdani42/nvim-tree.lua") -- nvim-tree
 	use("akinsho/toggleterm.nvim") -- use terminal in neovim
-    use("lewis6991/impatient.nvim") -- improve startup times
-    use("lukas-reineke/indent-blankline.nvim") -- indentation guides
+	use("lewis6991/impatient.nvim") -- improve startup times
+	use("lukas-reineke/indent-blankline.nvim") -- indentation guides
 
-    -- Dashboard
-    use("goolord/alpha-nvim")
+	-- Dashboard
+	use("goolord/alpha-nvim")
 
 	-- bufferline
 	use("akinsho/bufferline.nvim")
 	use("moll/vim-bbye")
 
 	-- lualine
-	use("nvim-lualine/lualine.nvim")
+	-- use("nvim-lualine/lualine.nvim")
+
+	-- feline
+	use("feline-nvim/feline.nvim")
 
 	-- cmp
 	use("hrsh7th/nvim-cmp") -- The main completion plugin
