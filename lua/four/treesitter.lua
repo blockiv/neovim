@@ -5,8 +5,39 @@ if not success then
 end
 
 configs.setup {
-    ensure_installed = "maintained", -- one of "all", "maintained" (parsers with maintainers), or a list of languages
-    sync_install = false, -- install languages synchronously (only applied to `ensure_installed`)
+    ensure_installed = {
+        "bash",
+        "c",
+        "commonlisp",
+        "cpp",
+        "fish",
+        "go",
+        "haskell",
+        "html",
+        "http",
+        "java",
+        "javascript",
+        "json",
+        "json5",
+        "llvm",
+        "lua",
+        "make",
+        "markdown",
+        "ninja",
+        "perl",
+        "php",
+        "python",
+        "r",
+        "rust",
+        "scheme",
+        "solidity",
+        "toml",
+        "tsx",
+        "typescript",
+        "vim",
+        "yaml",
+    }, -- one of "all", "maintained" (parsers with maintainers), or a list of languages
+    sync_install = true, -- install languages synchronously (only applied to `ensure_installed`)
     ignore_install = { "" }, -- list of parsers to ignore installing
     highlight = {
         enable = true, -- false will disable whole extension

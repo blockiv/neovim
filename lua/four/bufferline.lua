@@ -6,6 +6,7 @@ end
 
 bufferline.setup({
 	options = {
+        theme = "rose-pine",
 		numbers = "none",
 		close_command = "Bdelete! %d",
 		right_mouse_command = "Bdelete! %d",

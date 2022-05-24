@@ -78,5 +78,14 @@ telescope.setup {
         },
     },
     pickers = {},
-    extensions = {},
+    extensions = {
+        media_files = {
+            -- filetypes whitelist
+            -- defaults to {"png", "jpg", "mp4", "webm", "pdf"}
+            filetypes = {"png", "jpg", "mp4", "mpv", "webm", "webp", "jpeg", "pdf"},
+            find_cmd = "rg",
+        },
+    },
 }
+
+telescope.load_extension("media_files")

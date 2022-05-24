@@ -4,6 +4,7 @@ if not success then
     return
 end
 
+require("four.lsp.lsp-signature")
 require("four.lsp.lsp-installer")
 require("four.lsp.handlers").setup()
 require("four.lsp.null-ls")
