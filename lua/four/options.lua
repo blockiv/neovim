@@ -27,6 +27,7 @@ local options = {
 	expandtab = true, -- expand tabs to spaces
 	shiftwidth = 4, -- the number of spaces inserted for each indentation
 	tabstop = 4, -- insert 4 spaces for a tab
+    termguicolors = true, -- solarized color support
 	cursorline = true, -- highlight the current line
 	number = true, -- show line numbers
 	relativenumber = true, -- set relative line numbers

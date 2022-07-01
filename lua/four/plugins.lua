@@ -101,6 +101,7 @@ return packer.startup(function(use)
     use("folke/tokyonight.nvim")
     use("lunarvim/darkplus.nvim")
     use("lunarvim/colorschemes")
+    use("lifepillar/vim-solarized8")
 
     -- Automatically setup after bootstrap
     if PACKER_BOOTSTRAP then

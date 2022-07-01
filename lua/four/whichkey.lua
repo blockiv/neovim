@@ -107,20 +107,20 @@ local mappings = {
         v = { '<cmd>vsplit<cr>', "VSplit" },
     },
 
-   f = {
+    f = {
         name = "Find",
-        b = { "<cmd>telescope git_branches<cr>", "Checkout Branch" },
-        c = { "<cmd>telescope colorscheme<cr>", "Colorscheme" },
+        b = { "<cmd>Telescope git_branches<cr>", "Checkout Branch" },
+        c = { "<cmd>Telescope colorscheme<cr>", "Colorscheme" },
         f = { "<cmd>lua require('telescope.builtin').find_files(require('telescope.themes').get_dropdown{previewer = false})<cr>", "Find Files" },
-        t = { "<cmd>telescope live_grep<cr>", "Find Text" },
-        h = { "<cmd>telescope help_tags<cr>", "Help" },
+        t = { "<cmd>Telescope live_grep<cr>", "Find Text" },
+        h = { "<cmd>Telescope help_tags<cr>", "Help" },
         i = { "<cmd>lua require('telescope').extensions.media_files.media_files()<cr>", "Media" },
-        l = { "<cmd>telescope resume<cr>", "Last Search" },
-        m = { "<cmd>telescope man_pages<cr>", "Man Pages" },
-        r = { "<cmd>telescope oldfiles<cr>", "Recent File" },
-        R = { "<cmd>telescope registers<cr>", "Registers" },
-        k = { "<cmd>telescope keymaps<cr>", "Keymaps" },
-        C = { "<cmd>telescope commands<cr>", "Commands" },
+        l = { "<cmd>Telescope resume<cr>", "Last Search" },
+        m = { "<cmd>Telescope man_pages<cr>", "Man Pages" },
+        r = { "<cmd>Telescope oldfiles<cr>", "Recent File" },
+        R = { "<cmd>Telescope registers<cr>", "Registers" },
+        k = { "<cmd>Telescope keymaps<cr>", "Keymaps" },
+        C = { "<cmd>Telescope commands<cr>", "Commands" },
    },
 
    g = {
