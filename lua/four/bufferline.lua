@@ -6,10 +6,9 @@ end
 
 bufferline.setup({
 	options = {
-        theme = "rose-pine",
 		numbers = "none",
-		close_command = "Bdelete! %d",
-		right_mouse_command = "Bdelete! %d",
+		close_command = "bdelete! %d",
+		right_mouse_command = "bdelete! %d",
 		left_mouse_command = "buffer %d",
 		middle_mouse_command = nil,
 		indicator_icon = "▎",
@@ -20,9 +19,9 @@ bufferline.setup({
 		-- close_icon = '',
 		left_trunc_marker = "",
 		right_trunc_marker = "",
-		max_name_length = 30,
-		max_prefix_length = 30,
-		tab_size = 21,
+		max_name_length = 18,
+		max_prefix_length = 15,
+		tab_size = 22,
 		diagnostics = false,
 		diagnostics_update_in_insert = false,
 		offsets = { { filetype = "NvimTree", text = "", padding = 1 } },
@@ -30,7 +29,7 @@ bufferline.setup({
 		show_buffer_close_icons = true,
 		show_close_icon = true,
 		show_tab_indicators = true,
-		separator_style = "thin", -- options: "thick", `"hin", { "any", "any" }
+		separator_style = "thin", -- options: "slant", "thick", "thin", { "any", "any" }
 		enforce_regular_tabs = true,
 		always_show_bufferline = true,
 	},

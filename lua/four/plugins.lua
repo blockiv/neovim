@@ -64,6 +64,9 @@ return packer.startup(function(use)
     use("hrsh7th/cmp-nvim-lsp")
     use("hrsh7th/cmp-nvim-lua")
 
+    -- lang support
+    use("elkowar/yuck.vim")
+
     -- which key
     use("folke/which-key.nvim")
 
@@ -101,7 +104,7 @@ return packer.startup(function(use)
     use("folke/tokyonight.nvim")
     use("lunarvim/darkplus.nvim")
     use("lunarvim/colorschemes")
-    use("lifepillar/vim-solarized8")
+    use({ "loganswartz/selenized.nvim", requires = "rktjmp/lush.nvim" })
 
     -- Automatically setup after bootstrap
     if PACKER_BOOTSTRAP then

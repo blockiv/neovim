@@ -1,4 +1,5 @@
-local colorscheme = "solarized8_high"
+local colorscheme = "selenized"
+vim.opt.background = "dark"
 
 -- Attempt to load colorscheme
 local success, _ = pcall(vim.cmd, "colorscheme " .. colorscheme)
